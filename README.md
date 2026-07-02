@@ -15,6 +15,11 @@ If you find FemGIL useful for your research, please consider giving a star. Than
 5. `run`:Invokes the training code, configures the DDP environment, and enables multi-GPU parallelism.
 
 ## Data type
+### Data Availability
+The parameter ranges, sampling strategies, incident angles, and sample counts listed above describe the detailed configurations used to generate the datasets. However, the pre-generated dataset files are not included in this repository. Users need to generate their own FEM simulation results and construct the corresponding graph datasets using the provided `build_graph` script.
+
+---
+
 **Global Simulation Settings:**
 - **Incident Field:** Plane wave defined as $E_{inc} = [1, 0, 0]e^{i(k_0 x \cos\theta + k_0 y \sin\theta)}$.
 - **Center Position ($c_x, c_y$):** Randomly sampled within the range $[-500, 500]nm$ .
@@ -102,3 +107,4 @@ Datasets designed for transfer learning tasks involving multiple interacting sca
 **Scenarios:**
 * **Scenario (a):** Based on Shape (a) parameters ($L_1=320nm, L_2=80nm, L_3=90nm, L_4=200nm$) .
 * **Scenario (b):** Based on Shape (b) parameters ($L_1=320nm, L_2=80nm, L_3=120nm, L_4=200nm$) .
+  
