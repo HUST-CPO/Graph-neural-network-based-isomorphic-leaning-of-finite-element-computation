@@ -16,7 +16,7 @@ If you find FemGIL useful for your research, please consider giving a star. Than
 
 ## Data type
 ### Data Availability
-The parameter ranges, sampling strategies, incident angles, and sample counts listed above describe the detailed configurations used to generate the datasets. However, the pre-generated dataset files are not included in this repository. Users need to generate their own FEM simulation results and construct the corresponding graph datasets using the provided `build_graph` script.
+The parameter ranges, sampling strategies, incident angles, and sample counts listed below describe the detailed configurations used to generate the datasets. At present, the pre-generated dataset files are not publicly released. If access to the dataset is required, please feel free to contact us for further information.
 
 ---
 
